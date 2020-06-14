@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Asteroids</title>
+    <!-- <script src="/phaser.min.js"></script> -->
+    <!-- IMPLEMENTATION OF CERTAIN FUNCTIONS HAS CHANGED FROM VERSION 3.11 TO 3.22 -->
+    <!-- 3.11 DOESN'T SUPPORT PHASER'S SCALEMANAGER -->
+    <!-- 3.22 CAUSES ISSUES WITH REGARDS TO POSITION OF PROJECTILE -->
+    <!-- CHANGE TO 3.17 IF ISSUES PERSIST -->
+    <script src="//cdn.jsdelivr.net/npm/phaser@3.22.0/dist/phaser.min.js"></script>
+    <script src="/Projectile.js"></script>
+    <script src="/Explosion.js"></script>
+    <script src="/Scene1.js"></script>
+    <script src="/Scene2.js"></script>
+    <script src="/Scene3.js"></script>
+    <script src="/game.js"></script>
+    <style type="text/css">
+        body {
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="phaser-example"></div>
+</body>
+
+</html>
